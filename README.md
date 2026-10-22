@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/banner.png" alt="BPL Slides" width="600">
+</p>
+
 # markx
 
 A small grade planner for university units. Enter your assessments, their weights and the marks you've got back so far, and markx works out where you stand and what you still need on the remaining pieces to hit your target grade (Pass, Credit, Distinction, High Distinction).
@@ -27,7 +31,3 @@ Everything is stored in your browser's `localStorage`; nothing is sent anywhere.
 index.html       the whole app: markup, styles and script
 images/logo.svg  favicon
 ```
-
-## License
-
-[MIT](LICENSE)
