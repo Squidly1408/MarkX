@@ -13,13 +13,15 @@ A small grade planner for university units. Enter your assessments, their weight
 
 ## UoN version
 
-[`UoN/`](UoN/) is a version built for University of Newcastle students:
+<a href="UoN/README.md"><img src="UoN/assets/images/logo.png" alt="markx UoN" width="260"></a>
+
+[`UoN/`](UoN/) is a version built for University of Newcastle students. **[Read the UoN README →](UoN/README.md)**
 
 - UoN grade bands (HD 85+, D 75+, C 65+, P 50+, FF) and wording from Course Outlines ("minimum mark" for hurdles).
 - A **My GPA** view on UoN's 7-point scale, weighted by unit value: current GPA, projected GPA from your goals, the best and worst case this term, past results, and a "what do I need for a 6.0?" planner.
 - Backups as a downloadable file or copy-paste text, a FAQ, and a print-friendly layout.
 
-It isn't affiliated with or endorsed by the University of Newcastle.
+markx is an independent project. It is not affiliated with, endorsed by or connected to the University of Newcastle, Australia.
 
 ## Running it
 
@@ -42,14 +44,15 @@ Every path is relative, so the folder can be hosted as-is on any static host.
 
 Everything is stored in your browser's `localStorage`; nothing is sent anywhere. Use **Back up or move your data** at the bottom of the page to copy a backup and paste it into another browser or device.
 
+Each version has its own privacy policy and terms: [general privacy](privacy.html) · [general terms](terms.html) · [UoN privacy](UoN/privacy.html) · [UoN terms](UoN/terms.html).
+
 ## Project layout
 
 ```
 index.html                 general version: markup, styles and script in one file
-UoN/index.html             University of Newcastle version
-UoN/manifest.webmanifest   lets phones add the UoN version to the home screen
-UoN/fonts/                 Fira Sans (SIL Open Font License, see OFL.txt)
-images/logo.svg            favicon and app icon
+privacy.html, terms.html   general version's privacy policy and terms
+images/logo.svg            general favicon and app icon
 images/banner.png          README banner and link-preview image
+UoN/                       University of Newcastle version (see UoN/README.md)
 .nojekyll                  serve files as-is on GitHub Pages
 ```

@@ -793,6 +793,21 @@
       font-size: .78rem
     }
 
+    .foot {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      border-top: 1px solid var(--line);
+      padding-top: 14px;
+      font-size: .82rem;
+      color: var(--muted)
+    }
+
+    .foot a,
+    .hint a {
+      color: var(--ink)
+    }
+
     .hint {
       font-size: .82rem;
       color: var(--muted);
@@ -901,6 +916,10 @@
             id="restoreMsg"></span></div>
       </div>
     </details>
+    <footer class="foot">
+      <span>Results are estimates, not official grades. Always check your unit outline and your official results.</span>
+      <nav aria-label="Site"><a href="./privacy.html">Privacy policy</a> · <a href="./terms.html">Terms and conditions</a> · <a href="https://github.com/Squidly1408/MarkX">Source on GitHub</a></nav>
+    </footer>
   </div>
 
   <script>
